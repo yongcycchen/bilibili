@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "bilibili api",
+  "author": "yong",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "cross-env NODE_ENV=production LOG_CATEGORY=http node src/index.js &"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "file-type": "^16.2.0",
+    "log4js": "^6.3.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "xml2js": "^0.4.23"
+  }
+}
